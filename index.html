@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prompt Craft — Learn to Prompt AI Like a Pro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise"></div>
+
+  <nav class="nav">
+    <a href="#" class="nav-logo">Prompt Craft</a>
+    <ul class="nav-links">
+      <li><a href="#basics">Basics</a></li>
+      <li><a href="#techniques">Techniques</a></li>
+      <li><a href="#examples">Examples</a></li>
+      <li><a href="#tips">Tips</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-bg">
+      <div class="hero-orb hero-orb-1"></div>
+      <div class="hero-orb hero-orb-2"></div>
+      <div class="hero-orb hero-orb-3"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-label animate-in">Learn the craft</p>
+      <h1 class="hero-title animate-in">How to Prompt<br><span class="highlight">AI Tools</span></h1>
+      <p class="hero-desc animate-in">Write clearer prompts, get better results. A friendly guide to talking to ChatGPT, Claude, and other AI.</p>
+      <a href="#basics" class="btn btn-primary animate-in">Start learning</a>
+    </div>
+    <div class="hero-visual animate-in">
+      <div class="prompt-card">
+        <span class="prompt-card-label">Your prompt</span>
+        <p class="prompt-card-text">"Explain quantum entanglement like I'm 10, in 3 short paragraphs, with one simple analogy."</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="basics" class="section section-basics">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">The basics of a good prompt</h2>
+        <p class="section-subtitle animate-on-scroll">Every strong prompt has a few ingredients. Think of it like giving clear instructions to a helpful colleague.</p>
+        <div class="cards-grid">
+          <article class="card animate-on-scroll">
+            <div class="card-icon">🎯</div>
+            <h3>Be specific</h3>
+            <p>Instead of "write something about dogs," try "write a 100-word paragraph about why golden retrievers make good family pets."</p>
+          </article>
+          <article class="card animate-on-scroll">
+            <div class="card-icon">📐</div>
+            <h3>Set format & length</h3>
+            <p>Ask for bullets, paragraphs, steps, or a table. Say how long: "in 3 sentences," "in under 200 words," or "as a list of 5 items."</p>
+          </article>
+          <article class="card animate-on-scroll">
+            <div class="card-icon">👤</div>
+            <h3>Define the audience</h3>
+            <p>"Explain like I'm 10" or "for a technical audience" helps the AI match tone and complexity to who will read it.</p>
+          </article>
+          <article class="card animate-on-scroll">
+            <div class="card-icon">✨</div>
+            <h3>Add constraints</h3>
+            <p>Constraints focus the answer: "without jargon," "using only US data," or "avoid mentioning X" keeps output on track.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="techniques" class="section section-techniques">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">Powerful techniques</h2>
+        <p class="section-subtitle animate-on-scroll">Level up with these proven prompt patterns.</p>
+        <div class="technique-list">
+          <div class="technique-item animate-on-scroll">
+            <div class="technique-number">01</div>
+            <div class="technique-content">
+              <h3>Role-playing</h3>
+              <p>Start with a role: "You are a patient high-school physics teacher." The AI will adopt that persona and style.</p>
+            </div>
+          </div>
+          <div class="technique-item animate-on-scroll">
+            <div class="technique-number">02</div>
+            <div class="technique-content">
+              <h3>Few-shot examples</h3>
+              <p>Show one or two examples of the output you want. "Format your answers like this: [example]. Now do the same for..."</p>
+            </div>
+          </div>
+          <div class="technique-item animate-on-scroll">
+            <div class="technique-number">03</div>
+            <div class="technique-content">
+              <h3>Chain of thought</h3>
+              <p>Ask the AI to "think step by step" or "show your reasoning." Great for logic, math, and complex decisions.</p>
+            </div>
+          </div>
+          <div class="technique-item animate-on-scroll">
+            <div class="technique-number">04</div>
+            <div class="technique-content">
+              <h3>Negative instructions</h3>
+              <p>Say what to avoid: "Don't use bullet points," "Don't mention competitors," or "Keep it under 50 words."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="examples" class="section section-examples">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">Before & after</h2>
+        <p class="section-subtitle animate-on-scroll">See how small changes make a big difference.</p>
+        <div class="example-pairs">
+          <div class="example-pair animate-on-scroll">
+            <div class="example-box example-weak">
+              <span class="example-tag">Weak</span>
+              <p>"Tell me about Python."</p>
+            </div>
+            <div class="example-arrow">→</div>
+            <div class="example-box example-strong">
+              <span class="example-tag">Strong</span>
+              <p>"In 4 bullet points, compare Python and JavaScript for building a simple REST API. Mention learning curve and ecosystem."</p>
+            </div>
+          </div>
+          <div class="example-pair animate-on-scroll">
+            <div class="example-box example-weak">
+              <span class="example-tag">Weak</span>
+              <p>"Write an email."</p>
+            </div>
+            <div class="example-arrow">→</div>
+            <div class="example-box example-strong">
+              <span class="example-tag">Strong</span>
+              <p>"Write a short, professional email declining a meeting invite. Tone: polite and brief. No need to suggest alternatives."</p>
+            </div>
+          </div>
+          <div class="example-pair animate-on-scroll">
+            <div class="example-box example-weak">
+              <span class="example-tag">Weak</span>
+              <p>"Help me with my essay."</p>
+            </div>
+            <div class="example-arrow">→</div>
+            <div class="example-box example-strong">
+              <span class="example-tag">Strong</span>
+              <p>"I'm writing an essay on climate change for 12th grade. Suggest 3 counterarguments I should address and one sentence for each."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tips" class="section section-tips">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">Pro tips</h2>
+        <div class="tips-grid">
+          <div class="tip-card animate-on-scroll">
+            <span class="tip-num">1</span>
+            <p>Iterate: your first prompt rarely needs to be perfect. Refine based on the output.</p>
+          </div>
+          <div class="tip-card animate-on-scroll">
+            <span class="tip-num">2</span>
+            <p>Break big tasks into smaller prompts (outline first, then expand each part).</p>
+          </div>
+          <div class="tip-card animate-on-scroll">
+            <span class="tip-num">3</span>
+            <p>Paste key context (documents, data) when relevant so the AI has something to work with.</p>
+          </div>
+          <div class="tip-card animate-on-scroll">
+            <span class="tip-num">4</span>
+            <p>Ask for one thing at a time when possible; multi-part questions can get mixed results.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-cta">
+      <div class="container">
+        <div class="cta-box animate-on-scroll">
+          <h2>Ready to craft better prompts?</h2>
+          <p>Open your favorite AI tool and try one of the techniques above. Start specific, add a role or format, and refine from there.</p>
+          <div class="cta-buttons">
+            <a href="#basics" class="btn btn-secondary">Review basics</a>
+            <a href="#examples" class="btn btn-outline">See examples again</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-brand">Prompt Craft</p>
+      <p class="footer-credit">A friendly guide to prompting AI. Keep learning, keep iterating.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
